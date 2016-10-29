@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ayush</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="udacity_logo.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,100,300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <header class="header">
+            <div class="row header-inner">
+                <div class="col-md-6"><img src="images/logo.jpg" alt="Logo" class="img-responsive">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="header-name"><b>Ayush Kumar Sinha</b></h1>
+                    <h3 class="header-title">Full Stack Web Developer</h3>
+                </div>
+            </div>
+        </header>
+
+        <div class="row centerpiece">
+            <div class="col-md-12">
+                <picture>
+                    <source srcset="images/marmoset_main.jpg" media="(max-width: 600px)" class="img-responsive">
+                        <img src="images/cj.jpg" alt="main image" class="img-responsive" width="1600" height="200">
+                        <!--http://placehold.it/1850x350-->
+                </picture>
+            </div>
+        </div>
+
+        <div class="row showcase">
+          <div class="col-md-12">
+                <h2 class="showcase-header">Featured Work</h2>
+             </div>
+            <div class="col-md-4 text-center">
+                <img src="images/front.png" alt="Project 1" class="img-responsive" data-toggle="modal" data-target="#project1">
+                <h3>Udacity</h3>
+                <p><a href="https://github.com/ayush1095/web-application">Link to Project</a>
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="images/wb.jpg" alt="Project 2" class="img-responsive" data-toggle="modal" data-target="#project2">
+                <h3>Portfolio Site</h3>
+                <p><a href="https://github.com/ayush1095/portfolio_site">Link to Project</a>
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="images/aco1.jpg" alt="Project 3 Showcase" class="img-responsive" data-toggle="modal" data-target="#project3">
+                <h3>Ant Colony Optimisation</h3>
+                <p><a href="https://github.com/ayush1095/Ant-Colony-Optimisation">Link to Project</a>
+                </p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <ul>
+                <li><a target="_blank" href="https://twitter.com/ayushkumar1095"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                </li>
+                <li><a target="_blank" href="https://github.com/ayush1095"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li><a target="_blank" href="https://www.facebook.com/ayush.kumar.5220"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                </li>
+
+            </ul>
+            <!--trying anchored email link, probably safer to send them to Github though-->
+            <a href="mailto:ayush.ayush.kr@gmail.com?subject=Hi!&body=Please%20tell%20me%20more%20about%20your%20business.">Contact Me</a>
+            <p>This Website is made by Ayush Kumar Sinha</p>
+        </footer>
+
+        <!-- Modals -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModal1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel1">Full Stack Developer</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/zi.jpg" alt="Project 1 modal image">
+                        The term full-stack means developers who are comfortable working with both back-end and front-end technologies. This project uses python for the back-end which uses the features of different framework like django's, rest, jinja2 runing on Google App engine Platform.
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/ayush1095/web-application"><button type="button" class="btn btn-default">See Project on Github</button></a>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModal2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel2">Portfolio Site</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/za.jpg" alt="Project 2 modal image"> This project uses bootstrap using the 12 grid system describing my details and projects.
+                        Bootstrap, easily and efficiently scales this websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/ayush1095/portfolio_site">
+                        <button class="btn btn-default">See Project on Github</button></a>
+                        <button class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModal3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel3">Ant Colony Optimisation</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/aco.png" alt="Project 3 modal image">
+                        In computer science and operations research, the ant colony optimization algorithm (ACO) is a probabilistic technique for solving computational problems which can be reduced to finding good paths through graphs.
+                        This project aims to reach a optimal solution to the well known Travelling Salesman(TSP) problem using ACO.
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/ayush1095/Ant-Colony-Optimisation">
+                        <button class="btn btn-default">See Project on Github</button></a>
+                        <button class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery-2.2.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
